@@ -26,7 +26,7 @@
     <config-file target="AndroidManifest.xml" parent="/manifest/application">
       <activity android:name="com.adobe.phonegap.push.PushHandlerActivity" android:exported="true" android:launchMode="singleTop" android:permission="${applicationId}.permission.PushHandlerActivity">
         <intent-filter>   
-          <action android:name="FCM_PLUGIN_ACTIVITY" />  
+          <action android:name="PUSH_HANDLER_ACTIVITY" />  
           <category android:name="android.intent.category.DEFAULT" />
         </intent-filter>
       </activity>
